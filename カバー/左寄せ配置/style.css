@@ -1,0 +1,41 @@
+/* リンク */
+a {
+	text-decoration: none;
+}
+
+
+/* カバー
+------------------------------------------ */
+
+.cover {
+	height: 31.25rem;
+	background-image: url("https://techacademy.s3.ap-northeast-1.amazonaws.com/bootcamp/first-sidejob-2/parts/cover.jpg");
+	background-position: center;
+	background-size: cover;
+}
+
+/* コンテナ */
+.cover-container {
+	display: flex;
+	align-items: baseline;
+	justify-content: center;
+	flex-direction: column;
+	max-width: 70rem;
+	height: 100%;
+	padding: 0 1.25rem;
+	margin: auto;
+}
+
+/* キャッチコピー */
+.cover-catch {
+	margin-bottom: 1.5rem;
+	font-size: 1.5rem;
+}
+
+/* ボタン */
+.cover-button {
+	padding: .5rem 3.75rem;
+	font-weight: 700;
+	color: #fff;
+	background-color: #26547c;
+}

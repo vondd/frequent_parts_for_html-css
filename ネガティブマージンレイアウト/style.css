@@ -1,0 +1,29 @@
+/* About
+------------------------------------------ */
+
+/* 背景画像 */
+.about-image {
+	height: 18.75rem;
+	background-image: url("https://techacademy.s3.ap-northeast-1.amazonaws.com/bootcamp/first-sidejob-2/parts/drink.jpg");
+	background-size: cover;
+}
+
+.about-body {
+	max-width: 60rem;
+	padding: 5rem;
+	margin-top: -5rem;
+	margin-right:  auto;
+	margin-left:  auto;
+	background-color: #fff;
+	box-shadow: 0 2px 4px 0 rgb(0 0 0 / 12%);
+}
+
+.about-body-title {
+	margin-bottom: 3.75rem;
+	font-size: 2rem;
+	text-align: center;
+}
+
+.about-body-text {
+	font-size: 1.5rem;
+}

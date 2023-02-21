@@ -1,0 +1,55 @@
+/* コンテナ */
+.container {
+	max-width: 67.5rem;
+	margin: 5rem auto;
+}
+
+
+/* ニュース
+------------------------------------------ */
+
+.list-group-item {
+	display: flex;
+	justify-content: space-between;
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+	border-bottom: 1px solid #ccc;
+}
+
+/* バッジ */
+.badge {
+	padding: .25rem 1rem;
+	color: #fff;
+	font-size: .625rem;
+	font-weight: 700;
+	text-align: center;
+	border-radius: 1.5rem;
+}
+
+.badge-gray {
+	background-color: #ccc;
+}
+
+.badge-pink {
+	background-color: #ef476f;
+}
+
+.badge-yellow {
+	background-color: #ffe966;
+}
+
+.badge-orange {
+	background-color: #ffd166;
+}
+
+.badge-green {
+	background-color: #06d6a0;
+}
+
+.badge-light-blue {
+	background-color: #83dcff;
+}
+
+.badge-blue {
+	background-color: #2f92dd;
+}

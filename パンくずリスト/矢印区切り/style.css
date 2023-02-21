@@ -1,0 +1,24 @@
+/* リンク */
+a {
+	color: #2f92dd;
+}
+
+/* コンテナ */
+.container {
+	max-width: 67.5rem;
+	margin: 5rem auto;
+}
+
+/* パンくずリスト */
+.breadcrumb {
+	display: flex;
+	column-gap: .75rem;
+	list-style: none;
+}
+
+.breadcrumb-item + .breadcrumb-item::before {
+	padding-right: .75rem;
+	font-family: "bootstrap-icons";
+	font-size: .75rem;
+	content: "\F285";
+}

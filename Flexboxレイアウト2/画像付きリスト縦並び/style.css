@@ -1,0 +1,40 @@
+/* リンク */
+a {
+	color: #040000;
+	text-decoration: none;
+}
+
+/* コンテナ */
+.container {
+	max-width: 67.5rem;
+	margin: 5rem auto;
+}
+
+
+/* Voice
+------------------------------------------ */
+
+/* アイテム */
+.voice-item {
+	display: flex;
+	align-items: center;
+	column-gap: 1rem;
+	padding: .75rem;
+	background-color: #ffd166;
+}
+
+.voice-item:not(:last-child) {
+	margin-bottom: 1.25rem;
+}
+
+
+/* タイトル */
+.voice-item-title {
+	margin-bottom: .5rem;
+	font-size: 1.25rem;
+}
+
+/* テキスト */
+.voice-item-discription {
+	font-size: .875rem;
+}

@@ -1,0 +1,48 @@
+/* リンク */
+a {
+text-decoration: none;
+}
+
+/* リスト */
+li {
+list-style-type: none;
+}
+
+
+/* ヘッダー
+------------------------------------------ */
+
+.header {
+display: flex;
+align-items: center;
+height: 3.75rem;
+padding-right: 1.25rem;
+padding-left: 1.25rem;
+background-color: #84ceef;
+}
+
+.header a {
+color: #fff;
+}
+
+/* ナビゲーション、ボタン */
+.header-nav {
+margin-right: auto;
+margin-left: 2rem;
+}
+
+.header-nav-list-group,
+.header-button-group {
+display: flex;
+}
+
+.header-nav li:not(:last-child),
+.header-button-group li:not(:last-child) {
+margin-right: 1.5rem;
+}
+
+.header-button {
+background-color: #2f92dd;
+padding: .5rem 1rem;
+border-radius: .25rem;
+}

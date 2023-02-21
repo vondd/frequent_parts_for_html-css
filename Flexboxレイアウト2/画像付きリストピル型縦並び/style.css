@@ -1,0 +1,67 @@
+/* リンク */
+a {
+	color: #040000;
+	text-decoration: none;
+}
+
+/* 画像の円形 */
+.img-circle {
+	border-radius: 50%;;
+}
+
+/* コンテナ */
+.container {
+	display: flex;
+	row-gap: 1.25rem;
+	flex-direction: column;
+	max-width: 67.5rem;
+	margin: 5rem auto;
+}
+
+
+/* Voice
+------------------------------------------ */
+
+/* アイテム */
+.voice-item {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: .75rem 1.25rem .75rem 1rem;
+	color: #fff;
+	background-color: #54bbef;
+	border-radius: 3.75rem;
+}
+
+.voice-item:hover {
+	background-color: #26547c;
+	transition: all 0.3s ease;
+}
+
+
+/* ボディ */
+.voice-item-body {
+	display: flex;
+	align-items: center;
+}
+
+/* テキスト */
+.voice-item-body-text {
+	margin-left: 1rem;
+}
+
+/* タイトル */
+.voice-item-title {
+	margin-bottom: .5rem;
+	font-size: 1.25rem;
+}
+
+/* 説明文 */
+.voice-item-description {
+	font-size: .875rem;
+}
+
+/* 矢印アイコン */
+.voice-item-icon {
+	font-size: 1.75rem;
+}

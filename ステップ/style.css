@@ -1,0 +1,43 @@
+/* リスト */
+li {
+	list-style: none;
+}
+
+/* コンテナ */
+.container {
+	max-width: 67.5rem;
+	margin: 5rem auto;
+}
+
+/* ステップ */
+.step-list-group {
+	display: flex;
+	column-gap: 2rem;
+}
+
+.step-list-group-item {
+	width: calc(100% / 3);
+	padding: 1rem 1rem 2rem;
+	font-size: 0.875rem;
+	border-top-width: 3px;
+	border-top-style: solid;
+	border-top-color: #ccc;
+}
+
+.step-list-group-item-number {
+	color: #999;
+}
+
+.step-list-group-item-text {
+	font-size: 1.25rem;
+	font-weight: bold;
+}
+
+/* 済み */
+.step-list-group-item.done {
+	border-top-color: #2f92dd;
+}
+
+.step-list-group-item.done .step-list-group-item-number {
+	color: #2f92dd;
+}

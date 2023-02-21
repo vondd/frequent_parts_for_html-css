@@ -1,0 +1,41 @@
+/* リンク */
+a {
+	color: #000;
+}
+
+a:hover {
+	color: #fff;
+}
+
+/* リスト */
+li {
+	list-style: none;
+}
+
+/* コンテナ */
+.container {
+	max-width: 67.5rem;
+	margin: 5rem auto;
+}
+
+/* SNSリスト */
+.sns-list {
+	display: flex;
+	column-gap: 2rem;
+	font-size: 1.25rem;
+}
+
+.sns-list-item {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 2.5rem;
+	height: 2.5rem;
+	background-color: #ccc;
+	border-radius: 50%;
+}
+
+.sns-list-item:hover {
+	background-color: #040000;
+	transition: all 0.3s ease;
+}

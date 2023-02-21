@@ -1,0 +1,64 @@
+/* リンク */
+a {
+	text-decoration: none;
+}
+
+/* コンテナ */
+.container {
+	display: flex;
+	column-gap: 2.5rem;
+	max-width: 67.5rem;
+	margin: 5rem auto;
+}
+
+/* About
+------------------------------------------ */
+
+/* アイテム */
+.about-item {
+	padding: 1.5rem 1.75rem 2.5rem;
+	text-align: center;
+}
+
+/* 円形 */
+.about-item-circle {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 5rem;
+	height: 5rem;
+	margin-right: auto;
+	margin-bottom: 1.5rem;
+	margin-left: auto;
+	background-color: #84ceef;
+	border-radius: 50%;
+}
+
+/* アイコン */
+.about-item-circle-icon {
+	font-size: 2.75rem;
+	color: #fff;
+}
+
+/* タイトル */
+.about-item-title {
+	margin-bottom: .75rem;
+}
+
+/* テキスト */
+.about-item-text {
+	margin-bottom: 1.5rem;
+	text-align: left;
+}
+
+/* ボタン */
+.about-item-button {
+	display: inline-block;
+	width: 12.5rem;
+	padding-top: .5rem;
+	padding-bottom: .5rem;
+	color: #fff;
+	font-weight: 700;
+	background-color: #26547c;
+	border-radius: 1.5rem;
+}

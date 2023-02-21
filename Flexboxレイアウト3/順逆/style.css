@@ -1,0 +1,51 @@
+/* リンク */
+a {
+	color: #040000;
+	text-decoration: none;
+}
+
+/* 画像 */
+img {
+	max-width: 100%;
+	height: auto;
+	vertical-align: bottom;
+}
+
+/* コンテナ */
+.container {
+	max-width: 67.5rem;
+	margin: 5rem auto;
+}
+
+
+/* Feature
+------------------------------------------ */
+
+/* アイテム */
+.feature-item {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	column-gap: 2.5rem;
+}
+
+.feature-item:not(:last-child) {
+	margin-bottom: 3.75rem;
+}
+
+/* 反転 */
+.feature-item-reverse {
+	flex-direction: row-reverse;
+}
+
+/* 画像 */
+.feature-item-image {
+	border-radius: 1.25rem;
+}
+
+/* タイトル */
+.feature-item-title {
+	margin-bottom: .5rem;
+	font-size: 1.5rem;
+}
+
